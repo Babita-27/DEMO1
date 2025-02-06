@@ -1,5 +1,7 @@
 pipeline {
-    label 'mvs-w10-bld078'
+    agent {
+        label 'mvs-w10-bld078'
+    }
 
     stages {
         stage('Checkout Code') {
