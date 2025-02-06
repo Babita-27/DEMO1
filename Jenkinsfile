@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Babita-27/DEMO1.git'
+            }
+        }
+
+        stage('Build and Run') {
+            steps {
+                sh 'echo Hello, World!'
+            }
+        }
+    }
+}
