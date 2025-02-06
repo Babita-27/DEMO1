@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'mvs-w10-bld078'
+        label 'M414301_Agent_mvs-w10-bld078'
     }
 
     stages {
