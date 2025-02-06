@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent 'mvs-w10-bld078'
 
     stages {
         stage('Checkout Code') {
